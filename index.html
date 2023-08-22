@@ -13,17 +13,23 @@
 
     <header>
         <nav>
-            <div id="toggle">
-                <input type="checkbox" id="day">
-                <label for="day"></label>
-            </div> 
-            <div id="rain">
-                <label for="rainInput"></label>
-                <input type="checkbox" id="rainInput">
+            <div class="buttons">
+                <div id="toggle">
+                    <input type="checkbox" id="day">
+                    <label for="day"></label>
+                </div> 
+                <div id="rain">
+                    <label for="rainInput"></label>
+                    <input type="checkbox" id="rainInput">
+                </div>
+            </div>
+            <div class="spotify_container">
+                <div id="embed-iframe"></div>
             </div>
         </nav>
     </header>
 
 <script src="./script.js"></script>
+<script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
 </body>
 </html>
