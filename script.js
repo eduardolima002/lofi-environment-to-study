@@ -8,7 +8,6 @@ toggleDay.addEventListener('click', toogleB);
 toggleRain.addEventListener('click', toogleB);
 
 function toogleB() {
-
     if (inputDay.checked && (!inputRain.checked)) {
         document.querySelector('html').style.backgroundImage = 'url("./imagens/fotonoite.png")'
     } else if (!inputDay.checked && (!inputRain.checked)) {
